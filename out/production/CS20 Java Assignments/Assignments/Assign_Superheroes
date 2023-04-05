@@ -1,0 +1,52 @@
+1. Create a five item ArrayList that holds the names of superheroes.
+
+2. Print all of your Heroes ArrayList using a FOR loop.
+
+3. Two of your superheroes have decided they want more modern and cooler names.
+Using the SET function, write 2 lines of code that changes the names of only the first and last superhero to something better.  allNames.set(?, ?);
+
+4. Use the cheat print code to reprint all of your Heroes to prove the changes worked.   System.out.println(nameOfList);
+
+
+5. Set up 2 additional parallel ArrayLists that store the superpowers and an isHuman variable for the 5 characters in your original ArrayList.
+Superpower ArrayList should store Strings
+isHuman ArrayList should store Booleans.  Hint: ArrayList<Boolean>
+
+6a.
+Printline the following:
+Name				Power			They are human?
+Using a SINGLE for loop, print out all the characters so that it reads like the following.   Do not worry about getting everything to line up neatly.
+Superman			Speed			false
+Wonder Woman		Strength		true
+
+6b.  Alter the above print statements so that it also prints the i value beside the superheroes.
+0 Superman			Speed			false
+1 Wonder Woman		Strength		true
+
+
+7.  Use a filtered print to only print humans.  Reminder, ‘filtered print’ just means to use an IF statement inside your FOR loop.
+Hint: 	if(isHuman.get(i)){
+
+8.  Use a filtered print to only print those with military affiliations (name contains ‘Captain’ or name contains ‘Sergeant’, etc.)  OR some other filter you can think of.
+Hint: 	if(allNames.get(i).contains(“???”)    || allNames.get(i).contains(“???”)  ) {
+Above this print, add a println such as the following:
+ /*********************Filtered Print - Military Heroes***********/
+
+
+
+
+
+
+
+
+
+
+
+Advanced Challenge - Not for Marks
+
+Your heroes have all been exposed to green glowing goo.  If they are non-human, they have lost all their powers.
+Write a For Loop that:
+Uses an IF statement and the isHuman ArrayList
+If they are not human, it changes their superpower to “NONE”
+
+Reprint the table (so I can compare before to after).

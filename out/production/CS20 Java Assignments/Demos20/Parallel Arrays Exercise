@@ -1,0 +1,21 @@
+Part A)
+Code a parallel array where using the index position of a piece
+of information will allow you access to the matching information.
+For example, one list may be your student ID number and the matching
+lists may be your final GPA for the year. Make up a sample class
+size of 10 students.
+
+Part B)
+I will enter an ID number and it should print out the corresponding
+GPA, or indicate that the ID does not exist.
+
+Suggestions:
+Select what data you’d like to represent in your parallel data
+structures
+
+Print out your data to ensure that you have entered it correctly.
+After it works, comment this out.
+
+For Part B: implement the Scanner class to complete user input.
+Modify this algorithm to look for the two pieces of parallel
+information.
