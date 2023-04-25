@@ -86,13 +86,13 @@ public class Assign1_Superheroes {
 
         }
         //         6b.  Alter the above print statements so that it also prints
-        //         the i value beside the superheroes.
+        //         the (i) value beside the superheroes.
 
         System.out.printf("%n\n\t\tName\t\t\t\t\tPower\t\t\t\tThey are human?%n");
 
         for (int i = 0; i < heroes.size(); i++) {
             // String.valueOf -- turns the int value to a string so the colorize function can work
-            System.out.printf("\n" + colorize(String.valueOf(i) , Attribute.BRIGHT_BLUE_BACK(), Attribute.BLACK_TEXT()) + "\t\t" + heroes.get(i) + "\t\t\t\t" + superpowers.get(i) + "\t\t\t\t" + isHuman.get(i));
+            System.out.printf("\n" + colorize(String.valueOf(i), Attribute.BRIGHT_BLUE_BACK(), Attribute.BLACK_TEXT()) + "\t\t" + heroes.get(i) + "\t\t\t\t" + superpowers.get(i) + "\t\t\t\t" + isHuman.get(i));
 
         }
         System.out.println(" ");
@@ -106,7 +106,7 @@ public class Assign1_Superheroes {
             //          just means to use an IF statement inside your FOR loop.
             //          Hint: if(isHuman.get(i)){
 
-        //  unclear whether to continue to include the index in the table, opted to remove it from here on
+            //  unclear whether to continue to include the index in the table, opted to remove it from here on
             if (isHuman.get(i)) {
 
                 System.out.printf("\n" + "\t\t" + heroes.get(i) + "\t\t\t\t" + superpowers.get(i) + "\t\t\t\t" + isHuman.get(i));
