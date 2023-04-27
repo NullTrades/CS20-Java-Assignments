@@ -34,4 +34,8 @@ public class ExternalFilesImport {
         return temp;
     }
 
+    private static void divider() {
+        System.out.println("---------------");
+    }
+
 }
