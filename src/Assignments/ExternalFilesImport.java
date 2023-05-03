@@ -80,9 +80,9 @@ public class ExternalFilesImport {
                 //As some links only include "https://" without being followed by a "www.", it can lead to a false URL
                 //This is prevented with the addition of adding a "www." to links without a "www." in the string
             }
-                if(!url.startsWith("www.")) {
-                    url = "www." + url;
-                }
+            if(!url.startsWith("www.")) {
+                url = "www." + url;
+            }
             //This makes it so that "url" replaces the instances of "i" in the .csv file to give us clean up links
             schoolURL.set(i, url);
             //This is text code to see if the URL printing works
