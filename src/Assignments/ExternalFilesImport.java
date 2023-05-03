@@ -14,11 +14,11 @@ import java.util.ArrayList;
 public class ExternalFilesImport {
 
     //These ArrayLists are used to store each column of data from the .csv file
-    private static ArrayList<Integer> schoolID = new ArrayList<>();
-    private static ArrayList<String> schoolRegion = new ArrayList<>();
-    private static ArrayList<String> schoolName = new ArrayList<>();
-    private static ArrayList<String> schoolCategory = new ArrayList<>();
-    private static ArrayList<String> schoolURL = new ArrayList<>();
+    private static final ArrayList<Integer> schoolID = new ArrayList<>();
+    private static final ArrayList<String> schoolRegion = new ArrayList<>();
+    private static final ArrayList<String> schoolName = new ArrayList<>();
+    private static final ArrayList<String> schoolCategory = new ArrayList<>();
+    private static final ArrayList<String> schoolURL = new ArrayList<>();
 
     public static void main(String[] args)  {
 
