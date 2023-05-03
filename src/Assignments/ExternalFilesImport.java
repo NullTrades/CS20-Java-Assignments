@@ -80,9 +80,9 @@ public class ExternalFilesImport {
                 //As some links only include "https://" without being followed by a "www.", it can lead to a false URL
                 //This is prevented with the addition of adding a "www." to links without a "www." in the string
             }
-                if(!url.startsWith("www.")) {
-                    url = "www." + url;
-                }
+            if(!url.startsWith("www.")) {
+                url = "www." + url;
+            }
             //This makes it so that "url" replaces the instances of "i" in the .csv file to give us clean up links
             schoolURL.set(i, url);
             //This is text code to see if the URL printing works
@@ -93,7 +93,7 @@ public class ExternalFilesImport {
     private static void printData() {
         //used %n instead of \n as we used printf to format the Arraylist that is being outputted in a new a line
         for (int i = 0; i < schoolID.size(); i++) {
-            System.out.printf(schoolID.get(i) + "\t\t" + schoolRegion.get(i) + " \t\t" + schoolName.get(i) + " \t\t" + schoolCategory.get(i) + " \t\t" + schoolURL.get(i) +"%n");
+            System.out.printf("%-25d %-25s %-25s %-25s %-25s%n" , schoolID.get(i) , schoolRegion.get(i)  , schoolName.get(i) , schoolCategory.get(i)  , schoolURL.get(i));
         }
     }
 
