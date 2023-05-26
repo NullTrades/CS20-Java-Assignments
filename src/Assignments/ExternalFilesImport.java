@@ -35,7 +35,8 @@ public class ExternalFilesImport {
             BufferedReader br = new BufferedReader(new FileReader("src\\universityData.csv"));
 
             //This skips the first line (header information) in the .csv file
-            String line = br.readLine();
+            br.readLine();
+            String line;
 
             while((line = br.readLine()) != null) { // returns a Boolean Value
                 //This line splits the data with commas
